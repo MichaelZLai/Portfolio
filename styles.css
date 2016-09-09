@@ -1,0 +1,25 @@
+body{
+  background: #EBEBEB;
+}
+
+h1{
+  font-family: "Rock Salt", sans-serif;
+  text-align: center;
+  width: 50%;
+}
+
+nav{
+  display:flex;
+  justify-content: space-around;
+  font-family: "Indie Flower", sans-serif;
+}
+
+header p{
+  color: #000;
+  padding: 8px 16px;
+}
+
+#selfPortrait{
+  width: 20%;
+  height: 20%;
+}
