@@ -1,68 +1,78 @@
-body{
-  background: #EBEBEB;
-  height: 100%;
+*{
+  margin:0;
 }
 
-h1{
-  font-family: "Rock Salt", sans-serif;
-  text-align: left;
-  width: 50%;
-  font-size: 30px;
+body {
+  margin: 0;
+  background: #000;
+}
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade {
+  opacity: .5;
 }
 
-nav{
-  display:flex;
-  justify-content: space-around;
-  font-family: "Indie Flower", sans-serif;
-}
-
-header a{
-  color: #000;
-  padding: 8px 16px;
-  font-size: 20px;
-}
-
-header a:hover{
-  background-color: #555;
+#polina {
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100;
+  background: rgba(0,0,0,0.3);
   color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+#polina button {
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s background;
+}
+#polina button:hover {
+   background: rgba(0,0,0,0.5);
 }
 
-h2{
-  font-family: "Indie Flower", sans-serif;
-  text-align: left;
-  background-color: #E6F6FF;
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background;
 }
-
-footer{
-  display:flex;
-  justify-content: space-around;
-  text-align: center;
-  position:fixed;
-  height: 30;
-  left:0;
-  bottom:15px;
-  width:50%;
+a:hover{
+  background:rgba(0,0,0,0.9);
 }
-
-footer img{
-  width: 20px;
-  height: 20px;
+@media screen and (max-width: 500px) {
+  div{width:70%;}
 }
-
-#selfPortrait{
-  width: 13%;
-  height: 13%;
-}
-#shortline{
-  width:50%;
-}
-#medline{
-  width:70%;
-}
-#longline{
-  width:90%;
-}
-.section-content{
-  text-align: left;
-  font-family: Raleway, sans-serif;
+@media screen and (max-device-width: 800px) {
+  html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
 }
