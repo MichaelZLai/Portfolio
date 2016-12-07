@@ -47,27 +47,19 @@
       <div>
         <h1><strong>About</strong></h1>
         <hr>
-        <img src="./images/selfPortrait.png" alt="Self Portrait" class="selfportrait">
         <div class="container">
           <div class="row text-center">
             <div class="col-md-6">
               <h4><u>AboutMe.<small>txt</small></u></h4>
-              <ul class="text-left text-muted">
-                {
-                  <div><span class="jsonClass">"name":</span><span> "Michael"</span>,</div>
-                  <div><span class="jsonClass">"education":</span> [
-                    <p class="jsonArrObj">{</p>
-                    <p class="jsonClass">"institution": <span class="jsonValue">"North Carolina State University",</span></p>
-                    <p class="jsonClass">"yearGraduated": <span class="jsonValue">2012</span></p>
-                    <p class="jsonArrObj">},</p>
-                    <p class="jsonArrObj">{</p>
-                    <p class="jsonClass">"institution": <span class="jsonValue">"General Assembly"</span></p>
-                    <p class="jsonClass">"yearGraduated": <span class="jsonValue">2016</span></p>
-                    <p class="jsonArrObj">}</p>
-                    <p class="jsonClose">]</p></div>
-                  <div><span class="jsonClass">"hustle":</span> [<span>"Tech Meetups", "Olympic Weightlifting", "Yelp Elite"</span>],</div>
-                }
-              </ul>
+              <img src="./images/selfPortrait.png" alt="Self Portrait" class="selfportrait">
+              <p class="text-muted">Hi! I'm <b>Michael</b>. I like to <u>lift</u>. I like to <u>travel</u>. I like to <u>code</u>.</p>
+              <p class="text-muted">After 4 years of working in the IT consulting world, I learned that I’m more into the critical thinking side of things, and that's where my interest in developing arose. I <i>love</i> designing and coding enables me to produce what is a dream into reality.</p>
+              <p class="text-muted">I'm currently based in Washington DC. There are plenty of ways to <a href="#contact">contact</a> me if you're interested in collaborating or following my work.</p>
+              <p class="text-muted">I'll leave you now with my favorite quote of all time.</p>
+              <blockquote>
+                <p>"Don't Worry, Be Happy"</p>
+                <footer>Bobby McFerrin in <cite title="Source Title">Simple Pleasures</cite></footer>
+              </blockquote>
             </div>
             <div class="col-md-6">
               <h4><u>Skills.<small>json</small></u></h4>
@@ -103,28 +95,32 @@
         <h1><strong>Portfolio</strong></h1>
         <hr>
         <h4>Here are a samples of my work.</h4>
-        <div id="grid" class="main">
+        <div class="container">
 
-          <div class="view">
-            <div class="view-back">
-              <span class="verticaltext">SnapMap</span>
-              <a href="https://snapmap-.herokuapp.com/#/" target="_blank">&rarr;</a>
+
+          <div id="grid" class="text-center">
+              <div class="view">
+                <div class="view-back">
+                  <span class="verticaltext">SnapMap</span>
+                  <a href="https://snapmap-.herokuapp.com/#/" target="_blank">&rarr;</a>
+                </div>
+                <img src="images/snapmap.png" />
+              </div>
+            <div class="view">
+              <div class="view-back">
+                <span class="verticaltext">Feed Me</span>
+                <a href="https://michaelzlai.github.io/FeedMe-FE/#/feedme" target="_blank">&rarr;</a>
+              </div>
+              <img src="images/feedme.png" />
             </div>
-            <img src="images/snapmap.png" />
-          </div>
-          <div class="view">
-            <div class="view-back">
-              <span class="verticaltext">Feed Me</span>
-              <a href="https://michaelzlai.github.io/FeedMe-FE/#/feedme" target="_blank">&rarr;</a>
+            <div class="view">
+              <div class="view-back">
+                <span class="verticaltext">WODLeader</span>
+                <a href="https://wodleader-.herokuapp.com/" target="_blank">&rarr;</a>
+              </div>
+              <img src="images/wodleader.png" />
             </div>
-            <img src="images/feedme.png" />
-          </div>
-          <div class="view">
-            <div class="view-back">
-              <span class="verticaltext">WODLeader</span>
-              <a href="https://wodleader-.herokuapp.com/" target="_blank">&rarr;</a>
-            </div>
-            <img src="images/wodleader.png" />
+
           </div>
 
         </div>
