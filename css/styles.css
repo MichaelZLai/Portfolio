@@ -83,7 +83,15 @@ span.jsonValue{
   padding-left: 15px;
   margin:0;
 }
-
+.verticaltext {
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+  text-align:left;
+  left: 35%;
+	bottom: 40%;
+	position: absolute;
+}
 
 
 
