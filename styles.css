@@ -64,7 +64,25 @@ h1 {
   height: 100px;
   width: auto;
 }
-
+.jsonClass{
+  color: #1B8FD9;
+  padding-left: 15px;
+}
+.jsonArrObj{
+  padding-left: 30px;
+  margin:0;
+}
+p.jsonClass, p.jsonIndent{
+  margin:0;
+  padding-left: 45px;
+}
+span.jsonValue{
+  color: #838383;
+}
+.jsonClose{
+  padding-left: 15px;
+  margin:0;
+}
 
 
 
