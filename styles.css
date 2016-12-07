@@ -41,13 +41,13 @@ video {
   background: rgba(0,0,0,0.3);
   color: white;
   padding: 2rem;
-  width: 33%;
+  width: 27%;
   margin-top: -300px;
   margin-left: 20px;
   float: left;
   position: absolute;
   z-index: 1000;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 section{
   text-align: center;
@@ -64,6 +64,10 @@ h1 {
   height: 100px;
   width: auto;
 }
+
+
+
+
 
 
 
