@@ -6,3 +6,9 @@ $(window).scroll(function() {
     $("nav").removeClass("showNav");
   }
 });
+
+//Block Nav feature
+
+if($(window).width() > 736){
+  $("nav .navbar .showNav").show();
+}
