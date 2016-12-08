@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Z Lai</title>
     <link href="https://fonts.googleapis.com/css?family=Average+Sans|Tauri" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/472f1e0a39.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
     <link rel="stylesheet" type="text/css" href="./css/demo.css" />
     <link rel="stylesheet" type="text/css" href="./css/style_common.css" />
@@ -54,15 +56,15 @@
 
     <section id="about">
       <div>
-        <h1><strong>Hi</strong>, I'm Michael</h1>
+        <h1 class="text-capitalize"><strong>Hi</strong>, I'm Michael</h1>
+        <h5>I like to lift. I like to travel. I like to code.</h5>
         <div class="container">
           <div class="row text-center">
             <div class="col-md-6">
               <h4><u>AboutMe.<small>txt</small></u></h4>
               <img src="./images/selfPortrait.png" alt="Self Portrait" class="selfportrait">
-              <p class="text-muted">Hi! I'm <b>Michael</b>. I like to <u>lift</u>. I like to <u>travel</u>. I like to <u>code</u>.</p>
               <p class="text-muted">After 4 years of working in the IT consulting world, I learned that I’m more into the critical thinking side of things, and that's where my interest in developing arose. I <i>love</i> designing and coding enables me to produce what is a dream into reality.</p>
-              <p class="text-muted">I'm currently based in Washington DC. There are plenty of ways to <a href="#contact">contact</a> me if you're interested in collaborating or following my work.</p>
+              <p class="text-muted">Currently based in Washington DC. There are plenty of ways to <a href="#contact">contact</a> me if you're interested in collaborating or following my work.</p>
               <p class="text-muted">I'll leave you now with my favorite quote of all time.</p>
               <blockquote>
                 <p>"Don't Worry, Be Happy"</p>
@@ -100,8 +102,8 @@
 
     <section id="portfolio">
       <div>
-        <h1><strong>Portfolio</strong></h1>
-        <h4>Samples of my work.</h4>
+        <h1 class="text-capitalize"><strong>Samples</strong> of my work</h1>
+        <h5>blah blah blah blah</h5>
         <div class="container-fluid centerized">
           <div id="grid" class="center-block centerized">
 
@@ -134,36 +136,55 @@
     </section>
 
     <section id="contact">
-        <h1><strong>Contact</strong></h1>
+        <h1 class="text-capitalize"><strong>I would love</strong> to hear from you</h1>
+        <h5>Internship proposal, freelance inquiry or perhaps a coffee</h5>
     </section>
-          <div class="contactmepage">
-            <div class="blackme">
-              <form id="contactform" action="" method="post">
-                <h3 class="text-capitalize"><strong>I would love</strong> to hear from you</h3>
-                <h4>Internship proposal, freelance inquiry or even a coffee</h4>
-                <br>
-                <br>
-                <fieldset>
-                  <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                </fieldset>
-                <br>
-                <fieldset>
-                  <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                </fieldset>
-                <br>
-                <fieldset>
-                  <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-                </fieldset>
-                <br>
-                <fieldset>
-                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                </fieldset>
-              </form>
-            </div>
-            <div class="whiteme">
+      <div class="contactmepage">
+        <div class="blackme">
+          <form id="chatform" action="mailto:michaelzlai@gmail.com" method="POST" enctype="text/plain">
+            <h3 class="text-capitalize"><strong>Let's</strong> Chat</h3>
+            <h4>Michaelzlai@gmail.com</h4>
+            <h4>(336) 575-2450</h4>
+            <br>
+            <br>
+            <fieldset>
+              <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <br>
+            <fieldset>
+              <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <br>
+            <fieldset>
+              <textarea placeholder="Your Message Here...." tabindex="5" required></textarea>
+            </fieldset>
+            <br>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="whiteme">
+          <img class="contactimg" src="./images/contactme.jpg" alt="whitified Michael">
+          <div id="connectform">
+            <h3><strong>Let's</strong> Connect</h3>
 
+            <div>
+              <a href="https://github.com/MichaelZLai" target="_blank" class="icon-button github"><i class="icon-github"></i><span></span></a>
             </div>
+            <div>
+              <a href="https://www.linkedin.com/in/michaelzlai" target="_blank" class="icon-button linkedin"><i class="icon-linkedin"></i><span></span></a>
+            </div>
+            <div>
+              <a href="http://twitter.com/callmeyounglai" target="_blank" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+            </div>
+            <div>
+              <a href="https://instagram.com/michaelzlai" target="_blank" class="icon-button instagram"><i class="fa fa-instagram"></i><span></span></a>
+            </div>
+
           </div>
+        </div>
+      </div>
 
 
 
