@@ -502,10 +502,20 @@ fieldset {
     text-align: center;
   }
   .projects{
-    text-align: center;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
   }
   img{
     height: 100px;
     width: 200px;
+  }
+  .test{
+    width:200px;
+  }
+  .projblurb{
+    font-size: 8px;
   }
 }
