@@ -244,7 +244,7 @@ fieldset {
   padding-right: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 180px;
+  padding-left: 280px;
   z-index: 1000;
   margin-right: -100px;
   margin-top: -660px;
@@ -275,7 +275,7 @@ fieldset {
 }
 
 
-
+/*ICONs on Icons*/
 /* Wrapper */
 .icon-button {
 	background-color: white;
@@ -345,21 +345,21 @@ fieldset {
 	width: 3.6rem;
 	z-index: 10;
 }
-.icon-button .icon-twitter {
+.icon-button .fa-twitter {
 	color: #4099ff;
 }
-.icon-button .icon-github {
+.icon-button .fa-github {
 	color: #181717;
 }
-.icon-button .icon-linkedin {
+.icon-button .fa-linkedin {
 	color: #0077B5;
 }
 .icon-button .fa-instagram {
 	color: #E4405F;
 }
-.icon-button:hover .icon-twitter,
-.icon-button:hover .icon-github,
-.icon-button:hover .icon-linkedin,
+.icon-button:hover .fa-twitter,
+.icon-button:hover .fa-github,
+.icon-button:hover .fa-linkedin,
 .icon-button:hover .fa-instagram {
 	color: white;
 }
@@ -469,13 +469,13 @@ fieldset {
   div{width:70%;}
   nav .navbar .showNav{display:block!important;}
 }
-@media screen and (max-width: 900px ){
+@media screen and (max-width: 1000px ){
   #connectform{
     text-align: right;
     padding-right: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 100px;
+    padding-left: 170px;
     z-index: 1000;
     margin-right: -100px;
     margin-top: -660px;
