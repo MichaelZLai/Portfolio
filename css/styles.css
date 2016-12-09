@@ -515,8 +515,30 @@ fieldset {
   .projblurb{
     font-size: 8px;
   }
+  .whiteme{
+    height: 500px;
+    width:auto;
+    overflow:hidden;
+    background-image: url(../images/contactme.jpg);
+    z-index:-1000;
+  }
   /*.contactimg{
-    position: absolute;
-    height: 400px;
+    position:absolute;
+    height:100%;
+    width:auto;
   }*/
+  #connectform{
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 280px;
+    z-index: 1000;
+    margin-top: -10px;
+    float: right;
+    position: absolute;
+  }
+  #connectform h5{
+    color: black;
+  }
 }
