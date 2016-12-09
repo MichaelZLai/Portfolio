@@ -515,4 +515,8 @@ fieldset {
   .projblurb{
     font-size: 8px;
   }
+  /*.contactimg{
+    position: absolute;
+    height: 400px;
+  }*/
 }
