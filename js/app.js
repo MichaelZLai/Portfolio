@@ -12,3 +12,9 @@ $(window).scroll(function() {
 if($(window).width() > 736){
   $("nav .navbar .showNav").show();
 }
+
+//have landing page at the top
+
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
