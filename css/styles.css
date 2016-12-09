@@ -466,7 +466,7 @@ fieldset {
 
 
 /*less than 970, switch to mobile mode*/
-@media all and (max-width: 959px) {
+@media all and (max-width: 1600px) {
 
      .desktop{display:block;}
      .mobile{display:none;}
@@ -511,9 +511,6 @@ fieldset {
   img{
     height: 100px;
     width: 200px;
-  }
-  .test{
-    width:200px;
   }
   .projblurb{
     font-size: 8px;
