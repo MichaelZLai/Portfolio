@@ -5,7 +5,7 @@
 body {
   margin: 0;
   background: #F9F9F9;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 /*NAVBAR*/
@@ -66,6 +66,8 @@ h1 {
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: .3rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
 }
 .selfportrait{
   height: 100px;
