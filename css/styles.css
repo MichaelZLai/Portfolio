@@ -534,11 +534,17 @@ fieldset {
     padding-bottom: 25px;
     padding-left: 280px;
     z-index: 1000;
-    margin-top: -10px;
+    margin-right: -80px;
+    margin-top: -20px;
     float: right;
     position: absolute;
   }
   #connectform h5{
     color: black;
   }
+  #connectform p{
+    color: black;
+    font-size: 8px;
+  }
+
 }
