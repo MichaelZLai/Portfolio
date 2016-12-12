@@ -110,8 +110,13 @@ span.jsonValue{
 }
 #portfolio{
   margin:0;
-  /*background-color: #FFFFFF;*/
+  background-image: url(../images/maphd.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 100px;
 }
+
+
 .centerized{
   display:flex;
   justify-content: center;
@@ -512,7 +517,23 @@ fieldset {
   .txt{
     text-align: center;
   }
+  .json{
+    background-image: url(../images/palmtreemobile.jpg);
+    background-position: center;
+    background-attachment: fixed;
+  }
   .projects{
+    background-image: url(../images/lightbulbmobile.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    margin:0;
+    color: white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+  }
+  .contact{
     margin:0;
     display:flex;
     justify-content: center;
@@ -533,27 +554,22 @@ fieldset {
     background-image: url(../images/contactme.jpg);
     z-index:-1000;
   }
-  /*.contactimg{
-    position:absolute;
-    height:100%;
-    width:auto;
-  }*/
-  #connectform{
+  #letsconnect{
     text-align: right;
-    padding-right: 25px;
-    padding-top: 25px;
+    /*padding-right: 25px;*/
+    padding-top: 50px;
     padding-bottom: 25px;
-    padding-left: 280px;
+    padding-left: 200px;
     z-index: 1000;
     margin-right: -80px;
     margin-top: -20px;
     float: right;
     position: absolute;
   }
-  #connectform h5{
+  #letsconnect h4{
     color: black;
   }
-  #connectform p{
+  #letsconnect p{
     color: black;
     font-size: 8px;
   }
