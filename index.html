@@ -36,7 +36,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="./MichaelLaiResume.pdf">Resume</a></li>
+            <li><a href="./MichaelLaiResume.pdf" target="_blank">Resume</a></li>
           </ul>
       </div>
     </nav>
@@ -152,28 +152,35 @@
     </section>
       <div class="contactmepage">
         <div class="blackme">
-          <form id="chatform" action="mailto:michaelzlai@gmail.com" method="POST" enctype="text/plain">
+          <form id="gform" action="https://script.google.com/macros/s/AKfycbzoU5A_IJxhYVb3Qy4weOw3evR0-Q5bxwVipQiZ7vAIr5zSnAgH/exec" method="POST">
             <h3 class="text-capitalize"><strong>Let's</strong> Chat</h3>
             <h4>Michaelzlai@gmail.com</h4>
             <h4>(336) 575-2450</h4>
             <br>
             <br>
             <fieldset>
-              <input placeholder="Your Name" type="text" tabindex="1" required autofocus>
+              <input placeholder="Your Name" name="name" type="text" tabindex="1" required autofocus>
             </fieldset>
             <br>
             <fieldset>
-              <input placeholder="Your Email Address" type="email" tabindex="2" required>
+              <input placeholder="Your Email Address" name="email" type="email" tabindex="2" required>
             </fieldset>
             <br>
             <fieldset>
-              <textarea placeholder="Your Message Here...." tabindex="5" required></textarea>
+              <textarea placeholder="Your Message Here...." name="message" tabindex="3" required></textarea>
             </fieldset>
             <br>
             <fieldset>
               <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
             </fieldset>
           </form>
+          <!-- Customise the Thankyou Message after email form submit -->
+          <div style="display:none;" class="thankyou" id="thankyou_message">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <h2><strong>Thanks</strong> for the email!</h2>
+            <h4>I will get back to you soon <span style="color:#F42A41;"><3</span></h4>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          </div>
         </div>
         <div class="whiteme">
           <img class="contactimg" src="./images/contactme.jpg" alt="whitified Michael">
@@ -199,6 +206,7 @@
           </div>
         </div>
       </div>
+
 
 </div>
 
@@ -325,5 +333,6 @@
 			});
 
 		</script>
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
   </body>
 </html>

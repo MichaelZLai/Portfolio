@@ -153,22 +153,22 @@ body {
 }
 
 
-#chatform input[type="text"], #chatform input[type="email"], #chatform input[type="tel"], #chatform input[type="url"], #chatform textarea, #chatform button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+#gform input[type="text"], #gform input[type="email"], #gform input[type="tel"], #gform input[type="url"], #gform textarea, #gform button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
-#chatform {
+#gform {
 	/*background:#F9F9F9;*/
 	padding:25px;
 	margin:50px 0;
 }
 
-#chatform h3 {
+#gform h3 {
 	color: #fff;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
 }
 
-#chatform h4 {
+#gform h4 {
   color: #4B4B4B;
 	margin:5px 0 15px;
 	display:block;
@@ -183,7 +183,7 @@ fieldset {
 	width: 100%;
 }
 
-#chatform input[type="text"], #chatform input[type="email"], #chatform textarea {
+#gform input[type="text"], #gform input[type="email"], #gform textarea {
 	width:100%;
 	border:1px solid #CCC;
 	background:#000;
@@ -192,20 +192,20 @@ fieldset {
 	padding:10px;
 }
 
-#chatform input[type="text"]:hover, #chatform input[type="email"]:hover, #chatform textarea:hover {
+#gform input[type="text"]:hover, #gform input[type="email"]:hover, #gform textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
 	transition:border-color 0.3s ease-in-out;
 	border:1px solid #AAA;
 }
 
-#chatform textarea {
+#gform textarea {
 	height:200px;
 	max-width:100%;
   resize:none;
 }
 
-#chatform button[type="submit"] {
+#gform button[type="submit"] {
 	cursor:pointer;
 	width:100%;
 	border:none;
@@ -216,16 +216,16 @@ fieldset {
 	font-size:15px;
 }
 
-#chatform button[type="submit"]:hover {
+#gform button[type="submit"]:hover {
 	background:#09C;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
 }
 
-#chatform button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+#gform button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
 
-#chatform input:focus, #chatform textarea:focus {
+#gform input:focus, #gform textarea:focus {
 	outline:0;
 	border:1px solid #999;
 }
@@ -266,6 +266,15 @@ fieldset {
   color:#fff;
   background-size: 100% 100% ;
   background-repeat: no-repeat;
+}
+.thankyou{
+  height:100%;
+  width:100%;
+  background-size: 100% 100%;
+  color: #fff;
+  background-color: black;
+  padding: 8px;
+  overflow: hidden;
 }
 .contactimg{
   height: 704px;
