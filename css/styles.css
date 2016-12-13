@@ -482,7 +482,7 @@ fieldset {
 
 
 /*less than 970, switch to mobile mode*/
-@media all and (max-width: 1600px) {
+@media all and (max-width: 2400px) {
 
      .desktop{display:block;}
      .mobile{display:none;}
