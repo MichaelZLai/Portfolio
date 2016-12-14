@@ -365,6 +365,9 @@ fieldset {
 .instagram span {
 	background-color: #E4405F;
 }
+.yelp span {
+	background-color: #C41200;
+}
 
 /* Icons */
 .icon-button i {
@@ -394,10 +397,14 @@ fieldset {
 .icon-button .fa-instagram {
 	color: #E4405F;
 }
+.icon-button .fa-yelp {
+	color: #C41200;
+}
 .icon-button:hover .fa-twitter,
 .icon-button:hover .fa-github,
 .icon-button:hover .fa-linkedin,
-.icon-button:hover .fa-instagram {
+.icon-button:hover .fa-instagram,
+.icon-button:hover .fa-yelp {
 	color: white;
 }
 
