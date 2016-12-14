@@ -7,7 +7,28 @@ body {
   background: #F9F9F9;
   font-family: "Oswald", sans-serif;
 }
+/*LOADER*/
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:2299; /* makes sure it stays on top */
+}
 
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../images/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
 /*NAVBAR*/
 nav.navbar{
    -webkit-transition: all 0.4s ease;
@@ -53,7 +74,7 @@ video {
   margin-left: 20px;
   float: left;
   position: absolute;
-  z-index: 1000;
+  z-index: 100;
   font-size: 1.5rem;
 }
 section{
@@ -252,7 +273,7 @@ fieldset {
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 280px;
-  z-index: 1000;
+  z-index: ;
   margin-right: -100px;
   margin-top: -660px;
   float: right;
