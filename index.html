@@ -11,13 +11,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='shortcut icon' href='./images/m-favicon.png' type='image/x-icon'/ >
     <title>Michael Lai - Developer</title>
+    <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/472f1e0a39.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
     <link rel="stylesheet" type="text/css" href="./css/demo.css" />
     <link rel="stylesheet" type="text/css" href="./css/style_common.css" />
     <link rel="stylesheet" type="text/css" href="./css/style2.css" />
+    <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="./js/app.js"></script>
     <script src="./js/modernizr.js"></script>
@@ -26,166 +29,264 @@
   </head>
 
   <body>
-
+    <!-- Screen Loader -->
     <div id="preloader">
         <div id="status">&nbsp;</div>
     </div>
 
-  <div class="desktop">
-
-    <nav class="navbar navbar-light navbar-fixed-top" role="navigation">
-      <div class="container">
-          <ul class="nav navbar-nav pull-right">
-            <li><a class="navlinks" href="#">Home</a></li>
-            <li><a class="navlinks" href="#about">About</a></li>
-            <li><a class="navlinks" href="#portfolio">Portfolio</a></li>
-            <li><a class="navlinks" href="#contact">Contact</a></li>
-            <li><a class="navlinks" href="./MichaelLaiResume.pdf" target="_blank">Resume</a></li>
-          </ul>
-      </div>
-    </nav>
-
-
-    <video poster="./images/guanajuato.jpg" id="bgvid" playsinline autoplay muted loop>
-      <source src="./videos/landingvideo.webm" type="video/webm">
-      <source src="./videos/landingvideo.mp4" type="video/mp4">
-      <source src="./videos/landingvideo.ogv" type="video/ogg">
-    </video>
-
-    <div id="michael">
-
-        <h2 class="blackout welcome">Welcome</h2>
-        <h2 class="sentence blackout">To My
-          <div class="words slidingVertical">
-            <span>Site.</span>
-            <span>Ventures.</span>
-            <span>World.</span>
-            <span>Creation.</span>
-            <span>Space.</span>
-          </div>
-        </h2>
-
-    </div>
-
-    <section id="about">
-      <div>
-        <h1 class="text-capitalize"><strong>Hi</strong>, I'm Michael</h1>
-        <h5>I like to lift. I like to travel. I like to code.</h5>
+    <!-- Desktop View -->
+    <div class="desktop">
+    <!-- Navbar -->
+      <nav class="navbar navbar-light navbar-fixed-top" role="navigation">
         <div class="container">
-          <div class="row text-center">
-            <div class="col-md-6">
-              <h4><u>AboutMe.<small>txt</small></u></h4>
-              <img src="./images/selfPortrait.png" alt="Self Portrait" class="selfportrait">
-              <p class="text-muted">After 4 years of working in the IT consulting world, I've learned that I enjoy the critical thinking side of things. That's where my interest in developing arose. I <i>love</i> designing and coding enables me to produce what is a dream into reality.</p>
-              <p class="text-muted">Currently based in Washington DC. There are plenty of ways to <a href="#contact">contact</a> me if you're interested in collaborating or following my work.</p>
-              <p class="text-muted">I'll leave you now with my favorite quote of all time.</p>
-              <blockquote>
-                <p>"Don't Worry, Be Happy"</p>
-                <footer>Bobby McFerrin in <cite title="Source Title">Simple Pleasures</cite></footer>
-              </blockquote>
+            <ul class="nav navbar-nav pull-right">
+              <li><a class="navlinks" href="#">Home</a></li>
+              <li><a class="navlinks" href="#about">About</a></li>
+              <li><a class="navlinks" href="#portfolio">Portfolio</a></li>
+              <li><a class="navlinks" href="#contact">Contact</a></li>
+              <li><a class="navlinks" href="./MichaelLaiResume.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </div>
+      </nav>
+      <!-- HTML5 Landing Video Backdrop-->
+      <video poster="./images/guanajuato.jpg" id="bgvid" playsinline autoplay muted loop>
+        <source src="./videos/landingvideo.webm" type="video/webm">
+        <source src="./videos/landingvideo.mp4" type="video/mp4">
+        <source src="./videos/landingvideo.ogv" type="video/ogg">
+      </video>
+
+      <div id="michael">
+          <h2 class="blackout welcome">Welcome</h2>
+          <h2 class="sentence blackout">To My
+            <div class="words slidingVertical">
+              <span>Site.</span>
+              <span>Ventures.</span>
+              <span>World.</span>
+              <span>Creation.</span>
+              <span>Space.</span>
             </div>
-            <div class="col-md-6">
-              <h4><u>Experience.<small>json</small></u></h4>
-              <ul class="text-left text-muted">
-                {
-                  <div><span class="jsonClass">"frontEnd":</span> [<span>"HTML5/CSS3", "Javascript/jQuery", "Angular.js", "React.js", "Vue.js", "D3.js", "Canvas"</span>],</div>
-                  <div><span class="jsonClass">"backEnd":</span> [<span>"Rails", "Sinatra", "Express.js", "Node.js", "Mongoose"</span>],</div>
-                  <div><span class="jsonClass">"databases":</span> [<span>"PostgreSQL", "MySQL", "MongoDB"</span>],</div>
-                  <div><span class="jsonClass">"education":</span> [
-                    <p class="jsonArrObj">{</p>
-                    <p class="jsonClass">"institution": <span class="jsonValue">"North Carolina State University",</span></p>
-                    <p class="jsonClass">"focus": <span class="jsonValue">"Industrial Engineering",</span></p>
-                    <p class="jsonClass">"yearGraduated": <span class="jsonValue">2012</span></p>
-                    <p class="jsonArrObj">},</p>
-                    <p class="jsonArrObj">{</p>
-                    <p class="jsonClass">"institution": <span class="jsonValue">"General Assembly"</span></p>
-                    <p class="jsonClass">"focus": <span class="jsonValue">"Web Development",</span></p>
-                    <p class="jsonClass">"yearGraduated": <span class="jsonValue">2016</span></p>
-                    <p class="jsonArrObj">}</p>
-                    <p class="jsonClose">],</p></div>
-                  <div><span class="jsonClass">"makesMeanCoffee":</span><span> true</span></div>
+          </h2>
+      </div>
+      <!-- About Me Section -->
+      <section id="about">
+        <div>
+          <h1 class="text-capitalize"><strong>Hi</strong>, I'm Michael</h1>
+          <h5>I like to lift. I like to travel. I like to code.</h5>
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-md-6">
+                <h4><u>AboutMe.<small>txt</small></u></h4>
+                <img src="./images/selfPortrait.png" alt="Self Portrait" class="selfportrait">
+                <p class="text-muted">After 4 years of working in the IT consulting world, I've learned that I enjoy the critical thinking side of things. That's where my interest in developing arose. I <i>love</i> designing and coding enables me to produce what is a dream into reality.</p>
+                <p class="text-muted">Currently based in Washington DC. There are plenty of ways to <a href="#contact">contact</a> me if you're interested in collaborating or following my work.</p>
+                <p class="text-muted">I'll leave you now with my favorite quote of all time.</p>
+                <blockquote>
+                  <p>"Don't Worry, Be Happy"</p>
+                  <footer>Bobby McFerrin in <cite title="Source Title">Simple Pleasures</cite></footer>
+                </blockquote>
+              </div>
+              <div class="col-md-6">
+                <h4><u>Experience.<small>json</small></u></h4>
+                <ul class="text-left text-muted">
+                  {
+                    <div><span class="jsonClass">"frontEnd":</span> [<span>"HTML5/CSS3", "Javascript/jQuery", "Angular.js", "React.js", "Vue.js", "D3.js", "Canvas"</span>],</div>
+                    <div><span class="jsonClass">"backEnd":</span> [<span>"Rails", "Sinatra", "Express.js", "Node.js", "Mongoose"</span>],</div>
+                    <div><span class="jsonClass">"databases":</span> [<span>"PostgreSQL", "MySQL", "MongoDB"</span>],</div>
+                    <div><span class="jsonClass">"education":</span> [
+                      <p class="jsonArrObj">{</p>
+                      <p class="jsonClass">"institution": <span class="jsonValue">"North Carolina State University",</span></p>
+                      <p class="jsonClass">"focus": <span class="jsonValue">"Industrial Engineering",</span></p>
+                      <p class="jsonClass">"yearGraduated": <span class="jsonValue">2012</span></p>
+                      <p class="jsonArrObj">},</p>
+                      <p class="jsonArrObj">{</p>
+                      <p class="jsonClass">"institution": <span class="jsonValue">"General Assembly"</span></p>
+                      <p class="jsonClass">"focus": <span class="jsonValue">"Web Development",</span></p>
+                      <p class="jsonClass">"yearGraduated": <span class="jsonValue">2016</span></p>
+                      <p class="jsonArrObj">}</p>
+                      <p class="jsonClose">],</p></div>
+                    <div><span class="jsonClass">"makesMeanCoffee":</span><span> true</span></div>
+                  }
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section -->
+      <section id="portfolio">
+        <div>
+          <h1 class="text-capitalize"><strong>Here are my</strong> Featured projects</h1>
+          <h5>Technology is a beautiful gift. It reinforces patience, critical thinking and creativity.<br>
+              With inspiration from events in my everyday, here are my proud creations.</h5>
+          <div class="container-fluid centerized">
+            <div id="grid" class="center-block centerized">
+                <!-- List of Projects -->
+                <div class="view">
+                  <div class="view-back">
+                    <span class="verticaltext">SnapMap</span>
+                    <a href="https://snapmap-.herokuapp.com/#/" target="_blank">&rarr;</a>
+                  </div>
+                  <img src="images/snapmap.png" />
+                </div>
+                <div class="view">
+                  <div class="view-back">
+                    <span class="verticaltext">Feed Me</span>
+                    <a href="https://michaelzlai.github.io/FeedMe-FE/#/feedme" target="_blank">&rarr;</a>
+                  </div>
+                  <img src="images/feedme.png" />
+                </div>
+                <div class="view">
+                  <div class="view-back">
+                    <span class="verticaltext">WODLeader</span>
+                    <a href="https://wodleader-.herokuapp.com/" target="_blank">&rarr;</a>
+                  </div>
+                  <img src="images/wodleader.png" />
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- Contact section -->
+        <div class="contactmepage" id="contact">
+          <div class="blackme">
+            <form id="gform" action="http://formspree.io/michaelzlai@gmail.com" method="POST">
+              <h3 class="text-capitalize"><strong>Let's</strong> Chat</h3>
+              <h4>Freelance inquiry, employment opportunity or perhaps a coffee</h4>
+              <h4>Michaelzlai@gmail.com</h4>
+              <h4>(336) 575-2450</h4>
+              <br>
+              <fieldset>
+                <input placeholder="Your Name" name="name" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <br>
+              <fieldset>
+                <input placeholder="Your Email Address" name="email" type="email" tabindex="2" required>
+              </fieldset>
+              <br>
+              <fieldset>
+                <textarea placeholder="Your Message Here...." name="message" tabindex="3" required></textarea>
+              </fieldset>
+              <br>
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+            </form>
+            <!-- Customise the Thankyou Message after email form submit -->
+            <div style="display:none;" class="thankyou" id="thankyou_message">
+              <br><br><br><br><br><br><br><br><br><br><br><br>
+              <h2><strong>Thanks</strong> for the email!</h2>
+              <h4>I will get back to you soon <span style="color:#F42A41;"><3</span></h4>
+              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+          </div>
+          <div class="whiteme">
+            <img class="contactimg" src="./images/contactme.jpg" alt="whitified Michael">
+            <div id="connectform">
+              <h3><strong>Let's</strong> Connect</h3>
+              <!-- Start Social Media Buttons -->
+              <div>
+                <a href="https://github.com/MichaelZLai" target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/michaelzlai" target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+              </div>
+              <div>
+                <a href="http://twitter.com/callmeyounglai" target="_blank" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a>
+              </div>
+              <div>
+                <a href="http://michaelzlai.yelp.com" target="_blank" class="icon-button yelp"><i class="fa fa-yelp"></i><span></span></a>
+              </div>
+              <div>
+                <a href="https://instagram.com/michaelzlai" target="_blank" class="icon-button instagram"><i class="fa fa-instagram"></i><span></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div> <!-- End Desktop View-->
+
+  <!-- Start Mobile/Tablet View -->
+  <div class="mobile">
+      <video poster="./images/guanajuato.jpg" id="bgvid" playsinline autoplay muted loop>
+        <source src="./videos/landingvideo.webm" type="video/webm">
+        <source src="./videos/landingvideo.mp4" type="video/mp4">
+        <source src="./videos/landingvideo.ogv" type="video/ogg">
+      </video>
+
+      <div id="michael">
+          <h5 class="blackout welcome">Welcome</h5>
+          <h5 class="sentence blackout">To My
+            <div class="words slidingVertical">
+              <span>Site.</span>
+              <span>Ventures.</span>
+              <span>World.</span>
+              <span>Creation.</span>
+              <span>Space.</span>
+            </div>
+          </h5>
+      </div>
+
+      <div class="aboutme">
+        <div class="txt">
+          <h4><u><strong>About</strong> Me</u></h4>
+          <img src="./images/selfPortrait.png" alt="Self Portrait" class="selfportrait">
+          <p class="text-muted">Hi, I'm Michael. I like to lift. I like to travel. I like to code.</p>
+          <p class="text-muted">After 4 years of working in the IT consulting world, I learned that I’m more into the critical thinking side of things, and that's where my interest in developing arose. I <i>love</i> designing and coding enables me to produce what is a dream into reality.</p>
+          <p class="text-muted">Currently based in Washington DC. There are plenty of ways to contact me if you're interested in collaborating or following my work.</p>
+          <p class="text-muted">I'll leave you now with my favorite quote of all time.</p>
+          <blockquote>
+            <p>"Don't Worry, Be Happy"</p>
+            <footer>Bobby McFerrin in <cite title="Source Title">Simple Pleasures</cite></footer>
+          </blockquote>
+        </div>
+        <div class="json">
+          <h4 style="text-align: center;"><u>Experience.<small>json</small></u></h4>
+          <ul class="text-left text-muted">
+            {
+            <div><span class="jsonClass">"frontEnd":</span> [<span>"HTML5/CSS3", "Javascript/jQuery", "Angular.js", "React.js", "Vue.js", "D3.js", "Canvas"</span>],</div>
+            <div><span class="jsonClass">"backEnd":</span> [<span>"Rails", "Sinatra", "Express.js", "Node.js", "Mongoose"</span>],</div>
+            <div><span class="jsonClass">"databases":</span> [<span>"PostgreSQL", "MySQL", "MongoDB"</span>],</div>
+            <div><span class="jsonClass">"education":</span> [
+              <p class="jsonArrObj">{</p>
+              <p class="jsonClass">"institution": <span class="jsonValue">"North Carolina State University",</span></p>
+              <p class="jsonClass">"focus": <span class="jsonValue">"Industrial Engineering",</span></p>
+              <p class="jsonClass">"yearGraduated": <span class="jsonValue">2012</span></p>
+              <p class="jsonArrObj">},</p>
+              <p class="jsonArrObj">{</p>
+              <p class="jsonClass">"institution": <span class="jsonValue">"General Assembly"</span></p>
+              <p class="jsonClass">"focus": <span class="jsonValue">"Web Development",</span></p>
+              <p class="jsonClass">"yearGraduated": <span class="jsonValue">2016</span></p>
+              <p class="jsonArrObj">}</p>
+              <p class="jsonClose">],</p></div>
+            <div><span class="jsonClass">"makesMeanCoffee":</span><span> true</span></div>
                 }
-              </ul>
-            </div>
-          </div>
+          </ul>
         </div>
       </div>
 
-    </section>
+      <div class="projects">
+        <h4><u><strong>Featured</strong> Works</u></h4>
 
-    <section id="portfolio">
-      <div>
-        <h1 class="text-capitalize"><strong>Here are my</strong> Featured projects</h1>
-        <h5>Technology is a beautiful gift. It reinforces patience, critical thinking and creativity.<br>
-            With inspiration from events in my everyday, here are my proud creations.</h5>
-        <div class="container-fluid centerized">
-          <div id="grid" class="center-block centerized">
+          <a href="https://snapmap-.herokuapp.com/#/" target="_blank"><img src="./images/snapmap.png" alt="snapmap"></a>
+          <h5>SnapMap</h5>
+          <p class="projblurb">SnapMap allows you to share your photo experience to a global interactive map where everyone can see, post, and play.</p>
 
-              <div class="view">
-                <div class="view-back">
-                  <span class="verticaltext">SnapMap</span>
-                  <a href="https://snapmap-.herokuapp.com/#/" target="_blank">&rarr;</a>
-                </div>
-                <img src="images/snapmap.png" />
-              </div>
-              <div class="view">
-                <div class="view-back">
-                  <span class="verticaltext">Feed Me</span>
-                  <a href="https://michaelzlai.github.io/FeedMe-FE/#/feedme" target="_blank">&rarr;</a>
-                </div>
-                <img src="images/feedme.png" />
-              </div>
-              <div class="view">
-                <div class="view-back">
-                  <span class="verticaltext">WODLeader</span>
-                  <a href="https://wodleader-.herokuapp.com/" target="_blank">&rarr;</a>
-                </div>
-                <img src="images/wodleader.png" />
-              </div>
-            </div>
+          <a href="https://michaelzlai.github.io/FeedMe-FE/#/feedme" target="_blank"><img src="./images/feedme.png" alt="feedme"></a>
+          <h5>FeedMe</h5>
+          <p class="projblurb">Feed Me helps out of town and local patrons discover new restaurants in any area.</p>
 
-        </div>
+          <a href="https://wodleader-.herokuapp.com/" target="_blank"><img src="./images/wodleader.png" alt="wodleader"></a>
+          <h5>WODLeader</h5>
+          <p class="projblurb">WodLeader provides athletes both beginners and advanced to keep track of their progress in their daily workouts.</p>
+
       </div>
 
-    </section>
-
-
-      <div class="contactmepage" id="contact">
-        <div class="blackme">
-          <form id="gform" action="http://formspree.io/michaelzlai@gmail.com" method="POST">
-            <h3 class="text-capitalize"><strong>Let's</strong> Chat</h3>
-            <h4>Freelance inquiry, employment opportunity or perhaps a coffee</h4>
-            <h4>Michaelzlai@gmail.com</h4>
-            <h4>(336) 575-2450</h4>
-            <br>
-            <fieldset>
-              <input placeholder="Your Name" name="name" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <br>
-            <fieldset>
-              <input placeholder="Your Email Address" name="email" type="email" tabindex="2" required>
-            </fieldset>
-            <br>
-            <fieldset>
-              <textarea placeholder="Your Message Here...." name="message" tabindex="3" required></textarea>
-            </fieldset>
-            <br>
-            <fieldset>
-              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-            </fieldset>
-          </form>
-          <!-- Customise the Thankyou Message after email form submit -->
-          <div style="display:none;" class="thankyou" id="thankyou_message">
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <h2><strong>Thanks</strong> for the email!</h2>
-            <h4>I will get back to you soon <span style="color:#F42A41;"><3</span></h4>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-          </div>
-        </div>
+      <div class="contact">
         <div class="whiteme">
-          <img class="contactimg" src="./images/contactme.jpg" alt="whitified Michael">
-          <div id="connectform">
-            <h3><strong>Let's</strong> Connect</h3>
+          <div id="letsconnect">
+            <h4><strong>Let's</strong> Connect</h4>
+            <p>michaelzlai@gmail.com</p>
+            <p>(336) 575-2450</p>
 
             <div>
               <a href="https://github.com/MichaelZLai" target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
@@ -207,113 +308,7 @@
         </div>
       </div>
 
-
-</div>
-
-   <div class="mobile">
-    <video poster="./images/guanajuato.jpg" id="bgvid" playsinline autoplay muted loop>
-      <source src="./videos/landingvideo.webm" type="video/webm">
-      <source src="./videos/landingvideo.mp4" type="video/mp4">
-      <source src="./videos/landingvideo.ogv" type="video/ogg">
-    </video>
-
-    <div id="michael">
-        <h5 class="blackout welcome">Welcome</h5>
-        <h5 class="sentence blackout">To My
-          <div class="words slidingVertical">
-            <span>Site.</span>
-            <span>Ventures.</span>
-            <span>World.</span>
-            <span>Creation.</span>
-            <span>Space.</span>
-          </div>
-        </h5>
-    </div>
-
-    <div class="aboutme">
-      <div class="txt">
-        <h4><u><strong>About</strong> Me</u></h4>
-        <img src="./images/selfPortrait.png" alt="Self Portrait" class="selfportrait">
-        <p class="text-muted">Hi, I'm Michael. I like to lift. I like to travel. I like to code.</p>
-        <p class="text-muted">After 4 years of working in the IT consulting world, I learned that I’m more into the critical thinking side of things, and that's where my interest in developing arose. I <i>love</i> designing and coding enables me to produce what is a dream into reality.</p>
-        <p class="text-muted">Currently based in Washington DC. There are plenty of ways to contact me if you're interested in collaborating or following my work.</p>
-        <p class="text-muted">I'll leave you now with my favorite quote of all time.</p>
-        <blockquote>
-          <p>"Don't Worry, Be Happy"</p>
-          <footer>Bobby McFerrin in <cite title="Source Title">Simple Pleasures</cite></footer>
-        </blockquote>
-      </div>
-      <div class="json">
-        <h4 style="text-align: center;"><u>Experience.<small>json</small></u></h4>
-        <ul class="text-left text-muted">
-          {
-          <div><span class="jsonClass">"frontEnd":</span> [<span>"HTML5/CSS3", "Javascript/jQuery", "Angular.js", "React.js", "Vue.js", "D3.js", "Canvas"</span>],</div>
-          <div><span class="jsonClass">"backEnd":</span> [<span>"Rails", "Sinatra", "Express.js", "Node.js", "Mongoose"</span>],</div>
-          <div><span class="jsonClass">"databases":</span> [<span>"PostgreSQL", "MySQL", "MongoDB"</span>],</div>
-          <div><span class="jsonClass">"education":</span> [
-            <p class="jsonArrObj">{</p>
-            <p class="jsonClass">"institution": <span class="jsonValue">"North Carolina State University",</span></p>
-            <p class="jsonClass">"focus": <span class="jsonValue">"Industrial Engineering",</span></p>
-            <p class="jsonClass">"yearGraduated": <span class="jsonValue">2012</span></p>
-            <p class="jsonArrObj">},</p>
-            <p class="jsonArrObj">{</p>
-            <p class="jsonClass">"institution": <span class="jsonValue">"General Assembly"</span></p>
-            <p class="jsonClass">"focus": <span class="jsonValue">"Web Development",</span></p>
-            <p class="jsonClass">"yearGraduated": <span class="jsonValue">2016</span></p>
-            <p class="jsonArrObj">}</p>
-            <p class="jsonClose">],</p></div>
-          <div><span class="jsonClass">"makesMeanCoffee":</span><span> true</span></div>
-              }
-        </ul>
-      </div>
-    </div>
-
-    <div class="projects">
-      <h4><u><strong>Featured</strong> Works</u></h4>
-
-        <a href="https://snapmap-.herokuapp.com/#/" target="_blank"><img src="./images/snapmap.png" alt="snapmap"></a>
-        <h5>SnapMap</h5>
-        <p class="projblurb">SnapMap allows you to share your photo experience to a global interactive map where everyone can see, post, and play.</p>
-
-        <a href="https://michaelzlai.github.io/FeedMe-FE/#/feedme" target="_blank"><img src="./images/feedme.png" alt="feedme"></a>
-        <h5>FeedMe</h5>
-        <p class="projblurb">Feed Me helps out of town and local patrons discover new restaurants in any area.</p>
-
-        <a href="https://wodleader-.herokuapp.com/" target="_blank"><img src="./images/wodleader.png" alt="wodleader"></a>
-        <h5>WODLeader</h5>
-        <p class="projblurb">WodLeader provides athletes both beginners and advanced to keep track of their progress in their daily workouts.</p>
-
-    </div>
-
-    <div class="contact">
-      <!-- <h4><u>LetsChat.<small>zip</small></u></h4> -->
-      <div class="whiteme">
-        <div id="letsconnect">
-          <h4><strong>Let's</strong> Connect</h4>
-          <p>michaelzlai@gmail.com</p>
-          <p>(336) 575-2450</p>
-
-          <div>
-            <a href="https://github.com/MichaelZLai" target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
-          </div>
-          <div>
-            <a href="https://www.linkedin.com/in/michaelzlai" target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
-          </div>
-          <div>
-            <a href="http://twitter.com/callmeyounglai" target="_blank" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a>
-          </div>
-          <div>
-            <a href="http://michaelzlai.yelp.com" target="_blank" class="icon-button yelp"><i class="fa fa-yelp"></i><span></span></a>
-          </div>
-          <div>
-            <a href="https://instagram.com/michaelzlai" target="_blank" class="icon-button instagram"><i class="fa fa-instagram"></i><span></span></a>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-  </div>
+  </div> <!-- End Mobile View -->
 
 
 
