@@ -114,6 +114,9 @@ span.jsonValue{
   padding-left: 15px;
   margin:0;
 }
+.jsonBool{
+  color: orange;
+}
 .verticaltext {
 	transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
