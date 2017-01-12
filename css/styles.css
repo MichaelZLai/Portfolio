@@ -107,6 +107,7 @@ p.jsonClass, p.jsonIndent{
   margin:0;
   padding-left: 45px;
 }
+
 span.jsonValue{
   color: #838383;
 }
@@ -315,7 +316,7 @@ fieldset {
   height: 100%;
   width: 100%;
   color:#fff;
-  z-index:-1000;
+  z-index: -1000;
   /*background-size: 100% 100% ;*/
   background-repeat: no-repeat;
 }
@@ -582,8 +583,8 @@ fieldset {
   }
   .whiteme{
     height: 500px;
-    width:auto;
-    overflow:hidden;
+    width: 100%;
+    overflow: hidden;
     background-image: url(../images/contactme.jpg);
     z-index:-1000;
   }
