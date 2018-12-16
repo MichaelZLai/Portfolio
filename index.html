@@ -1,344 +1,317 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <!-- &&&&&&&&&&&&&&&&&&&&&& -->
-    <!-- Welcome to my source code! -->
-    <!-- Let me know what you think! I'm always looking for ways to update and innovate.  -->
-    <!-- Until Then... -->
-    <!-- &&&&&&&&&&&&&&&&&&&&&& -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='shortcut icon' href='./images/m-favicon.png' type='image/x-icon'/ >
-    <title>Michael Lai - Developer</title>
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
-    <script src="https://use.fontawesome.com/472f1e0a39.js"></script>
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style_common.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style2.css" />
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="./js/app.js"></script>
-    <script src="./js/modernizr.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
-  </head>
+<html class="cspio">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Coming Soon Page</title>
 
-  <body>
-    <!-- Screen Loader -->
-    <div id="preloader">
-        <div id="status">&nbsp;</div>
-    </div>
+	<meta name="generator" content="comingsoonpage.com 1.0.0" />
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/favicon.ico">
+	<meta property="og:url" content="" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="My Coming Soon Page" />
+	<meta property="og:description" content="" />
 
-    <!-- Desktop View -->
-    <div class="desktop">
-    <!-- Navbar -->
-      <nav class="navbar navbar-light navbar-fixed-top" role="navigation">
-        <div class="container">
-            <ul class="nav navbar-nav pull-right">
-              <li><a class="navlinks" href="#">Home</a></li>
-              <li><a class="navlinks" href="#about">About</a></li>
-              <li><a class="navlinks" href="#portfolio">Portfolio</a></li>
-              <li><a class="navlinks" href="#contact">Contact</a></li>
-              <li><a class="navlinks" href="./Michael_Lai_Resume_2018.pdf" target="_blank">Resume</a></li>
-            </ul>
-        </div>
-      </nav>
-      <!-- HTML5 Landing Video Backdrop-->
-      <video poster="./images/guanajuato.jpg" id="bgvid" playsinline autoplay muted loop>
-        <source src="./videos/landingvideo.webm" type="video/webm">
-        <source src="./videos/landingvideo.mp4" type="video/mp4">
-        <source src="./videos/landingvideo.ogv" type="video/ogg">
-      </video>
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 
-      <div id="michael">
-          <h2 class="blackout welcome">Welcome</h2>
-          <h2 class="sentence blackout">To My
-            <div class="words slidingVertical">
-              <span>Site.</span>
-              <span>Ventures.</span>
-              <span>World.</span>
-              <span>Creation.</span>
-              <span>Space.</span>
-            </div>
-          </h2>
-      </div>
-      <!-- About Me Section -->
-      <section id="about">
-        <div>
-          <h1 class="text-capitalize"><strong>Hi</strong>, I'm Michael</h1>
-          <h5>I like to lift. I like to travel. I like to code.</h5>
-          <div class="container">
-            <div class="row text-center">
-              <div class="col-md-6">
-                <h4><u>AboutMe.<small>txt</small></u></h4>
-                <img src="./images/selfPortrait.png" alt="Self Portrait" class="selfportrait">
-                <p class="text-muted">After 4 years of working in the IT consulting world, I've learned that I enjoy the critical thinking side of things. That's where my interest in developing arose. I <i>love</i> designing and coding enables me to produce what is a dream into reality.</p>
-                <p class="text-muted">Currently based in Washington DC. There are plenty of ways to <a href="#contact">contact</a> me if you're interested in collaborating or following my work.</p>
-                <p class="text-muted">I'll leave you now with my favorite quote of all time.</p>
-                <blockquote>
-                  <p>"Don't Worry, Be Happy"</p>
-                  <footer><cite title="Source Title">Bobby McFerrin</cite></footer>
-                </blockquote>
-              </div>
-              <div class="col-md-6">
-                <h4><u>Experience.<small>json</small></u></h4>
-                <ul class="text-left text-muted">
-                  {
-                    <div><span class="jsonClass">"frontEnd":</span> [<span>"HTML5/CSS3", "Javascript/jQuery", "Angular.js", "React.js", "Vue.js", "D3.js", "Canvas"</span>],</div>
-                    <div><span class="jsonClass">"backEnd":</span> [<span>"Rails", "Sinatra", "Express.js", "Node.js", "Mongoose"</span>],</div>
-                    <div><span class="jsonClass">"databases":</span> [<span>"PostgreSQL", "MySQL", "MongoDB"</span>],</div>
-                    <div><span class="jsonClass">"education":</span> [
-                      <p class="jsonArrObj">{</p>
-                      <p class="jsonClass">"institution": <span class="jsonValue">"North Carolina State University",</span></p>
-                      <p class="jsonClass">"focus": <span class="jsonValue">"Industrial Engineering",</span></p>
-                      <p class="jsonClass">"yearGraduated": <span class="jsonValue">2012</span></p>
-                      <p class="jsonArrObj">},</p>
-                      <p class="jsonArrObj">{</p>
-                      <p class="jsonClass">"institution": <span class="jsonValue">"General Assembly"</span></p>
-                      <p class="jsonClass">"focus": <span class="jsonValue">"Web Development",</span></p>
-                      <p class="jsonClass">"yearGraduated": <span class="jsonValue">2016</span></p>
-                      <p class="jsonArrObj">}</p>
-                      <p class="jsonClose">],</p></div>
-                    <div><span class="jsonClass">"makesMeanCoffee":</span><span class="jsonBool"> true</span></div>
-                  }
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Portfolio Section -->
-      <section id="portfolio">
-        <div>
-          <h1 class="text-capitalize"><strong>Here are my</strong> Featured projects</h1>
-          <h5>Technology is a beautiful gift. It reinforces patience, critical thinking and creativity.<br>
-              With inspiration from events in my everyday, here are my proud creations.</h5>
-          <div class="container-fluid centerized">
-            <div id="grid" class="center-block centerized">
-                <!-- List of Projects -->
-                <div class="view">
-                  <div class="view-back">
-                    <span class="verticaltext">SnapMap</span>
-                    <a href="https://snapmap-.herokuapp.com/#/" target="_blank">&rarr;</a>
-                  </div>
-                  <img src="images/snapmap.png" />
-                </div>
-                <div class="view">
-                  <div class="view-back">
-                    <span class="verticaltext">Feed Me</span>
-                    <a href="https://michaelzlai.github.io/FeedMe-FE/#/feedme" target="_blank">&rarr;</a>
-                  </div>
-                  <img src="images/feedme.png" />
-                </div>
-                <div class="view">
-                  <div class="view-back">
-                    <span class="verticaltext">WODLeader</span>
-                    <a href="https://wodleader-.herokuapp.com/" target="_blank">&rarr;</a>
-                  </div>
-                  <img src="images/wodleader.png" />
-                </div>
-            </div>
-          </div>
-        </div>
-      </section>
+	<!-- Bootstrap and default Style -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
 
-        <!-- Contact section -->
-        <div class="contactmepage" id="contact">
-          <div class="blackme cont-col">
-            <form id="gform" action="http://formspree.io/michaelzlai@gmail.com" method="POST">
-              <h3 class="text-capitalize"><strong>Let's</strong> Chat</h3>
-              <h4>Freelance inquiry, employment opportunity or perhaps a coffee</h4>
-              <h4>Michaelzlai@gmail.com</h4>
-              <h4>(336) 575-2450</h4>
-              <br>
-              <fieldset>
-                <input placeholder="Your Name" name="name" type="text" tabindex="1" required autofocus>
-              </fieldset>
-              <br>
-              <fieldset>
-                <input placeholder="Your Email Address" name="email" type="email" tabindex="2" required>
-              </fieldset>
-              <br>
-              <fieldset>
-                <textarea placeholder="Your Message Here...." name="message" tabindex="3" required></textarea>
-              </fieldset>
-              <br>
-              <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-              </fieldset>
-            </form>
-            <!-- Customise the Thankyou Message after email form submit -->
-            <div style="display:none;" class="thankyou" id="thankyou_message">
-              <br><br><br><br><br><br><br><br><br><br><br><br>
-              <h2><strong>Thanks</strong> for the email!</h2>
-              <h4>I will get back to you soon <span style="color:#F42A41;"><3</span></h4>
-              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
-          </div>
-          <div class="whiteme cont-col">
-            <img class="contactimg" src="./images/contactme.jpg" alt="whitified Michael">
-            <div id="connectform">
-              <h3><strong>Let's</strong> Connect</h3>
-              <!-- Start Social Media Buttons -->
-              <div>
-                <a href="https://www.github.com/MichaelZLai" target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
-              </div>
-              <div>
-                <a href="https://www.linkedin.com/in/michaelzlai" target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
-              </div>
-              <div>
-                <a href="http://www.twitter.com/callmeyounglai" target="_blank" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a>
-              </div>
-              <div>
-                <a href="http://www.michaelzlai.yelp.com" target="_blank" class="icon-button yelp"><i class="fa fa-yelp"></i><span></span></a>
-              </div>
-              <div>
-                <a href="https://www.instagram.com/michaelzlai" target="_blank" class="icon-button instagram"><i class="fa fa-instagram"></i><span></span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-  </div> <!-- End Desktop View-->
+	<!-- Google Fonts -->
+	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
 
-  <!-- Start Mobile/Tablet View -->
-  <div class="mobile">
-      <video poster="./images/guanajuato.jpg" id="bgvid" playsinline autoplay muted loop>
-        <source src="./videos/landingvideo.webm" type="video/webm">
-        <source src="./videos/landingvideo.mp4" type="video/mp4">
-        <source src="./videos/landingvideo.ogv" type="video/ogg">
-      </video>
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 
-      <div id="michael">
-          <h5 class="blackout welcome">Welcome</h5>
-          <h5 class="sentence blackout">To My
-            <div class="words slidingVertical">
-              <span>Site.</span>
-              <span>Ventures.</span>
-              <span>World.</span>
-              <span>Creation.</span>
-              <span>Space.</span>
-            </div>
-          </h5>
-      </div>
+	<!-- Calculated Styles -->
+	<style type="text/css">
 
-      <div class="aboutme">
-        <div class="txt">
-          <h4><u><strong>About</strong> Me</u></h4>
-          <img src="./images/selfPortrait.png" alt="Self Portrait" class="selfportrait">
-          <p class="text-muted">Hi, I'm Michael. I like to lift. I like to travel. I like to code.</p>
-          <p class="text-muted">After 4 years of working in the IT consulting world, I learned that I’m more into the critical thinking side of things, and that's where my interest in developing arose. I <i>love</i> designing and coding enables me to produce what is a dream into reality.</p>
-          <p class="text-muted">Currently based in Washington DC. There are plenty of ways to contact me if you're interested in collaborating or following my work.</p>
-          <p class="text-muted">I'll leave you now with my favorite quote of all time.</p>
-          <blockquote>
-            <p>"Don't Worry, Be Happy"</p>
-            <footer><cite title="Source Title">Bobby McFerrin</cite></footer>
-          </blockquote>
-        </div>
-        <div class="json">
-          <h4 style="text-align: center;"><u>Experience.<small>json</small></u></h4>
-          <ul class="text-left text-muted">
-            {
-            <div><span class="jsonClass">"frontEnd":</span> [<span>"HTML5/CSS3", "Javascript/jQuery", "Angular.js", "React.js", "Vue.js", "D3.js", "Canvas"</span>],</div>
-            <div><span class="jsonClass">"backEnd":</span> [<span>"Rails", "Sinatra", "Express.js", "Node.js", "Mongoose"</span>],</div>
-            <div><span class="jsonClass">"databases":</span> [<span>"PostgreSQL", "MySQL", "MongoDB"</span>],</div>
-            <div><span class="jsonClass">"education":</span> [
-              <p class="jsonArrObj">{</p>
-              <p class="jsonClass">"institution": <span class="jsonValue">"North Carolina State University",</span></p>
-              <p class="jsonClass">"focus": <span class="jsonValue">"Industrial Engineering",</span></p>
-              <p class="jsonClass">"yearGraduated": <span class="jsonValue">2012</span></p>
-              <p class="jsonArrObj">},</p>
-              <p class="jsonArrObj">{</p>
-              <p class="jsonClass">"institution": <span class="jsonValue">"General Assembly"</span></p>
-              <p class="jsonClass">"focus": <span class="jsonValue">"Web Development",</span></p>
-              <p class="jsonClass">"yearGraduated": <span class="jsonValue">2016</span></p>
-              <p class="jsonArrObj">}</p>
-              <p class="jsonClose">],</p></div>
-            <div><span class="jsonClass">"makesMeanCoffee":</span><span class="jsonBool"> true</span></div>
-                }
-          </ul>
-        </div>
-      </div>
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
 
-      <div class="projects">
-        <h4><u><strong>Featured</strong> Works</u></h4>
+	body {
+		height:100%;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
 
-          <a href="https://snapmap-.herokuapp.com/#/" target="_blank"><img src="./images/snapmap.png" alt="snapmap"></a>
-          <h5>SnapMap</h5>
-          <p class="projblurb">SnapMap allows you to share your photo experience to a global interactive map where everyone can see, post, and play.</p>
+	html{
+		height:100%;
+		background: #ffffff url(https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1958d4bfb59a246c6092ff0daabd284b); no-repeat center bottom fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 
-          <a href="https://michaelzlai.github.io/FeedMe-FE/#/feedme" target="_blank"><img src="./images/feedme.png" alt="feedme"></a>
-          <h5>FeedMe</h5>
-          <p class="projblurb">Feed Me helps out of town and local patrons discover new restaurants in any area.</p>
+	#cspio-page{
+		background-color: rgba(0,0,0,0);
+	}
 
-          <a href="https://wodleader-.herokuapp.com/" target="_blank"><img src="./images/wodleader.png" alt="wodleader"></a>
-          <h5>WODLeader</h5>
-          <p class="projblurb">WodLeader provides athletes both beginners and advanced to keep track of their progress in their daily workouts.</p>
+	.flexbox #cspio-page{
+		align-items: center;
+		justify-content: center;
+	}
 
-      </div>
+	.cspio body{
+		background: transparent;
+	}
 
-      <div class="contact">
-        <div class="whiteme">
-          <!-- <img class="contactimg" src="./images/contactme.jpg" alt="whitified Michael"> -->
-          <div id="letsconnect">
-            <h4><strong>Let's</strong> Connect</h4>
-            <p>michaelzlai@gmail.com</p>
-            <p>(336) 575-2450</p>
+	.cspio body, .cspio body p{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+        font-size: 20px;
+        line-height: 1.50em;
+        color:#ffffff;
+    }
 
-            <div>
-              <a href="https://www.github.com/MichaelZLai" target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/in/michaelzlai" target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
-            </div>
-            <div>
-              <a href="http://www.twitter.com/callmeyounglai" target="_blank" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a>
-            </div>
-            <div>
-              <a href="http://www.michaelzlai.yelp.com" target="_blank" class="icon-button yelp"><i class="fa fa-yelp"></i><span></span></a>
-            </div>
-            <div>
-              <a href="https://www.instagram.com/michaelzlai" target="_blank" class="icon-button instagram"><i class="fa fa-instagram"></i><span></span></a>
-            </div>
+	::-webkit-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
 
-          </div>
-        </div>
-      </div>
+	::-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
 
-  </div> <!-- End Mobile View -->
+	:-ms-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+
+	:-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+
+    .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
+        font-family: 'Pacifico';
+        color:#ffffff;
+    }
+
+	#cspio-headline{
+		font-family: 'Pacifico';
+		font-weight: 400;
+		font-style: ;
+				font-size: 48px;
+		color:#ffffff;
+		line-height: 1.00em;
+	}
+
+	.cspio button{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+    }
+
+    .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
+		color: #ffffff;
+	}
+
+	#cspio-socialprofiles a {
+	  color: #ffffff;
+	}
+	.cspio .btn-primary,
+	.cspio .btn-primary:focus,
+	.gform_button,
+	#mc-embedded-subscribe, .submit-button {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		background-color: #ffffff;
+		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
+		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: linear-gradient(top,#ffffff,#d9d9d9);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
+		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		*background-color: #d9d9d9;
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	}
+
+	.cspio .btn-primary:hover,
+	.cspio .btn-primary:active,
+	.cspio .btn-primary.active,
+	.cspio .btn-primary.disabled,
+	.cspio .btn-primary[disabled],
+	.cspio .btn-primary:focus:hover,
+	.cspio .btn-primary:focus:active,
+	.cspio .btn-primary:focus.active,
+	.cspio .btn-primary:focus.disabled,
+	.cspio .btn-primary:focus[disabled],
+	#mc-embedded-subscribe:hover,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active,
+	#mc-embedded-subscribe.disabled,
+	#mc-embedded-subscribe[disabled] {
+		background-color: #d9d9d9;
+		*background-color: #cccccc;
+	}
+
+	.cspio .btn-primary:active,
+	.cspio .btn-primary.active,
+	.cspio .btn-primary:focus:active,
+	.cspio .btn-primary:focus.active,
+	.gform_button:active,
+	.gform_button.active,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active {
+		background-color: #bfbfbf;
+	}
+
+	.form-control,
+	.progress {
+		background-color: rgba(255, 255, 255, 0.85);
+	}
+
+	#cspio-progressbar span,
+	.countdown_section {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+	}
+
+	.cspio .btn-primary:hover,
+	.cspio .btn-primary:active {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		border-color: #e6e6e6;
+	}
+
+	.cspio input[type='text']:focus {
+		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+	}
+
+    #cspio-content {
+		display: none;
+		max-width: 600px;
+		background-color: #000000;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		background-color:transparent;
+	}
+
+	.cspio .progress-bar,
+	.countdown_section,
+	.cspio .btn-primary,
+	.cspio .btn-primary:focus,
+	.gform_button {
+		background-image: none;
+		text-shadow: none;
+	}
+
+	.cspio input,
+	.cspio input:focus {
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+
+	#cspio-page{
+	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	}
+
+	.cspio body{
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%);
+		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%);
+		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 );
+	}
+
+	#cspio-subscribe-btn{
+	    background:transparent;
+	    border: 1px solid #fff !important;
+	    color: #fff;
+	}
+
+	#cspio-subscribe-btn:hover{
+	    background: rgba(255,255,255,0.2);
+	    color: #fff;
+	}
+
+	#cspio-credit img{
+		margin-left:auto;
+		margin-right:auto;
+		width:125px;
+		    margin-top: -4px;
+	}
+
+	#cspio-credit {
+		font-size:11px;
+	}
+
+	</style>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Modernizr -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	<!-- Google Analytics Code Goes Here-->
+</head>
+<body>
+	<div id="cspio-page">
+		<div id="cspio-content">
+
+			<h1 id="cspio-headline">Coming Soon</h1>
+
+			<div id="cspio-description">Get ready! Michael's new website is gonna be awesome!</div>
+
+			<span id="cspio-privacy-policy-txt">I luv you.</span>
+
+			<div id="cspio-socialprofiles">
+				<a href="https://www.instagram.com/michaelzlai/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+				<a href="https://twitter.com/CallMeYoungLai" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+				<a href="https://michaelzlai.yelp.com" target="_blank"><i class="fa fa-yelp fa-2x"></i></a>
+			</div>
 
 
+		</div><!-- end of #cspio-content -->
+	</div>
 
 
+	<script>
+		// Animate Delay
+		setTimeout(function(){ jQuery("#cspio-content").show().addClass('animated fadeIn'); }, 250);
 
-    <script type="text/javascript">
+		// Reseize
+		function resize(){
+				$('head').append("<style id='form-style' type='text/css'></style>");
+				$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
+		}
 
-			Modernizr.load({
-				test: Modernizr.csstransforms3d && Modernizr.csstransitions,
-				yep : ['js/jquery.hoverfold.js'],
-				nope: 'css/fallback.css',
-				callback : function( url, result, key ) {
-
-					if( url === 'js/jquery.hoverfold.js' ) {
-				$( '#grid' ).hoverfold();
-					}
-
+		$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+			function(){
+				var width = $('#cspio-field-wrapper').width();
+				if(width < 480 && width != 0){
+					resize();
 				}
-			});
+			}
+		);
+	</script>
 
-      //Google Analytics
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-89612190-1', 'auto');
-      ga('send', 'pageview');
-		</script>
-    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
-  </body>
+	</body>
 </html>
+
+<!-- This page was generated by ComingSoonPage.com | Learn more: http://www.comingsoonpage.com -->
