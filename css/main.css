@@ -19,12 +19,6 @@
   color: #EBB72C;
 }
 
-@media (max-width: 768px) {
-  .stats{
-    font-size: 1.5rem;
-  }
-}
-
 /* About */
 .aboutme{
   height: 450px;
@@ -89,4 +83,21 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
+}
+
+
+@media (max-width: 768px) {
+  /* Stats */
+  .stats{
+    font-size: 1.5rem;
+  }
+
+  /* Social */
+  .social-container{
+    width: 300px;
+  }
+}
+
+@media (max-width: 667px) {
+
 }
